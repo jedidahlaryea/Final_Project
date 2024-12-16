@@ -1,6 +1,5 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-connection_str = 'mysql+mysqlconnector://Jedidah:Backcase#123@localhost/tech4girls'
 
 engine = create_engine(connection_str)
 
